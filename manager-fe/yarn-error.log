@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add sass
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;D:\yingxiong\cmder\;D:\Microsoft VS Code;D:\yingxiong\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\53565\AppData\Local\Microsoft\WindowsApps;D:\Bandizip\;D:\DataGrip 2020.1.5\bin;;D:\Microsoft VS Code\bin;C:\Users\53565\AppData\Roaming\npm;C:\Users\53565\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\yingxiong\yuanc\vue3\manager-fe\node_modules\esbuild\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "manager-fe",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "vue": "^3.0.5"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^1.2.5",
+      "@vue/compiler-sfc": "^3.0.5",
+      "vite": "^2.4.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
